@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "escanify",
-    "slug": "qr-code-scanner",
+    "name": "eScanify",
+    "slug": "escanify",
     "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -22,15 +22,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.nautiluscode.qrcodescanner"
+      "package": "com.nautiluscode.escanify"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "80c848f6-31c2-4a0a-a5d0-d9d2bbd28fd2"
+        "projectId": "f10f14a6-e306-4808-84f3-315e2867b46f"
       }
-    }
+    },
+    "owner": "nautiluscode"
   }
 }
