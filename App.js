@@ -125,7 +125,7 @@ function App() {
               <View style={styles.cardData}>
                 <Text style={styles.cardText}>Name: {data?.name}</Text>
                 <Text style={styles.cardText}>RollNo: {data?.RollNo}</Text>
-                <Text style={styles.cardText}>Semester: {data?.Semester}</Text>
+                <Text style={styles.cardText}>Batch: {data?.Batch}</Text>
                 <Text style={styles.cardText}>CreatedAt: {data?.createdAt}</Text>
                 {/* Add more fields as needed */}
               </View>
@@ -163,7 +163,7 @@ const styles = StyleSheet.create({
   },
   scanLine: {
     flex: 1,
-    backgroundColor: '#2979FF',
+    backgroundColor: '#007BFF',
   },
   scanCorner: {
     width: 350,
@@ -192,7 +192,7 @@ const styles = StyleSheet.create({
     fontSize: 27,
     fontWeight: 'bold',
     marginBottom: 8,
-    color: '#2979FF',
+    color: '#007BFF',
     textAlign: 'center',
   },
   cardData: {
@@ -207,7 +207,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 32,
     alignSelf: 'center',
-    backgroundColor: '#2979FF',
+    backgroundColor: '#007BFF',
     borderRadius: 100,
     padding: 16,
     elevation: 4,

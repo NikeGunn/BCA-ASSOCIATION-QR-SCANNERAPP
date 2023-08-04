@@ -1,15 +1,15 @@
 {
   "expo": {
-    "name": "qr-code-scanner",
+    "name": "escanify",
     "slug": "qr-code-scanner",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#2979FF"
+      "backgroundColor": "#007BFF"
     },
     "assetBundlePatterns": [
       "**/*"
